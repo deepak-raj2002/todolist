@@ -38,7 +38,6 @@ const TodoCard = styled.div`
 
 	h1 {
 		text-decoration: ${(props) => (props.isComplete ? "line-through" : "none")};
-		/* color: ${(props) => (props.isComplete ? "#9fa9ac" : "#373737")}; */
 		user-select: ${(props) => (props.isComplete ? "none" : "auto")};
 
 		overflow-wrap: anywhere;

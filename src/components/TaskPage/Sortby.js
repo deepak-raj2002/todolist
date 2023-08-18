@@ -125,7 +125,6 @@ const Box = styled.div`
 	width: 100%;
 	justify-content: flex-end;
 	align-items: center;
-	margin-bottom: 1rem;
 	transition-duration: 100ms !important;
 
 	& {

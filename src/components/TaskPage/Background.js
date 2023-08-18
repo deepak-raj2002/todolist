@@ -31,7 +31,6 @@ const Background = (props) => {
 	
 	return (
 		<Wrapper>
-			
 			<h1>{props.title}</h1>
 		</Wrapper>
 	);
