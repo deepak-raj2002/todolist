@@ -10,12 +10,10 @@ const InputItem = styled.input`
 	margin: auto;
 	width: 100%;
 	height: 3rem;
-	padding: 20px;
+	padding: 10px;
 	padding-right: 2.5rem;
 	box-shadow: 0 5px 12px -4px #32343517;
-
 	resize: none;
-
 	font-family: inherit;
 	letter-spacing: 0.5px;
 

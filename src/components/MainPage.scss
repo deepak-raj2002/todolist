@@ -3,6 +3,12 @@
     height: 32vh;
     width:55vw;
     margin-left:25%;
+    overflow-x: hidden;
 }
 
-
+@media screen and (max-width:500px) {
+    .todo-list{
+        margin: auto !important;
+        width: 70vw !important;
+    }
+}

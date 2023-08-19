@@ -4,7 +4,6 @@ import styled from "styled-components";
 import DarkModeToggle from "react-dark-mode-toggle";
 
 const Wrapper = styled.section`
-	width: 100vw;
 	height: 20vh;
 	max-height: 300px;
 	min-height: 150px;

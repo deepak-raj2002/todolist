@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 
 import { ReactComponent as Delete } from "../Assets/delete-bin-line.svg";
 import { ReactComponent as Edit } from "../Assets/pencil-line.svg";
-import { ReactComponent as Drag } from "../Assets/drag_indicator_black_24dp.svg";
 
 import TodoActions from "./TodoActions";
 import TodoCard from "./TodoCard";
@@ -81,7 +80,6 @@ const TodoItem = React.memo((props) => {
 							<Edit onClick={() => setIsEdit(true)} />
 						</>
 					)}
-					<Drag />
 				</TodoActions>
 			</div>
 			{/* <small>{props.time}</small> */}

@@ -17,7 +17,7 @@ const Plus = styled.input.attrs({
 	position: absolute;
 	padding: 5px;
 	left: unset;
-	top: 34px;
+	top: 25px;
 	right: 15px;
 	transition: all 100ms ease-in-out;
 	cursor: pointer;
